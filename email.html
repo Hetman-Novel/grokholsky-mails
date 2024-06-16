@@ -39,8 +39,25 @@
          text-decoration: none;
       }
 
+      .w-from-541 {
+         display: none;
+      }
+      .w-to-540 {
+         display: table;
+      }
+      
+      .w-from-481 {
+         display: none;
+      }
+      .w-to-480 {
+         display: table;
+      }
+
       @media screen and (min-width: 541px) {
          
+         .w-from-541 {
+            display: table;
+         }
          .w-to-540 {
             display: none;
          }
@@ -48,7 +65,10 @@
       @media screen and (max-width: 540.98px) {
 
          .w-from-541 {
-            display: none;
+            display: none !important;
+         }
+         .w-to-540 {
+            display: table !important;
          }
 
          .table-head-top {
@@ -143,8 +163,135 @@
          .table-order-details p br {
             display: none !important;
          }
+
+         .center-content-two {
+            padding: 10px 16px 17px 16px !important;
+         }
+         .center-content-two h2 {
+            font-size: 16px !important;
+            line-height: 24px !important;
+            padding: 0px 0px 9px 0px !important;
+         }
+         .center-content-two .center-content-two-td-1 {
+            width: 77px !important;
+         }
+         .center-content-two .table-your-order-block-image {
+            height: 73px !important;
+            width: 73px !important;
+         }
+         .center-content-two .table-your-order-block-image img {
+            padding: 5px 0px 0px 0px !important;
+            width: 61.44px !important;
+         }
+         .center-content-two h3 {
+            font-size: 14px !important;
+            line-height: 20px !important;
+            padding: 0px 0px 4px 0px !important;
+         }
+         .center-content-two p span {
+            font-size: 12px !important;
+         }
+         .center-content-two-quantity-and-price p {
+            font-size: 12px !important;
+            padding: 4px 0px 0px 0px !important;
+         }
+
+         .center-content-three {
+            padding: 10px 5px 11px 5px !important;
+         }
+         .center-content-three h2 {
+            font-size: 16px !important;
+            line-height: 24px !important;
+            padding: 0px 11px 7px 11px !important;
+         }
+         .center-content-three h4 {
+            font-size: 12px !important;
+            line-height: 16px !important;
+         }
+
+         .separator td {
+            padding: 4px 0px 4px 0px !important;
+         }
+         .center-content-two-line {
+            padding: 12px 0px 12px 0px !important;
+         }
+
+         .center-content-two-list-info td {
+            font-size: 12px !important;
+            padding: 0px 0px 0px 0px !important;
+         }
+         .center-content-two-list-info .price-1 {
+            font-size: 12px !important;
+            line-height: 20px !important;
+         }
+         .center-content-two-list-info .price-2 {
+            font-size: 12px !important;
+            line-height: 20px !important;
+         }
+         .center-content-two-list-info .price-2 span {
+            font-size: 11px !important;
+         }
+         .center-content-two-block-info {
+            padding: 11px 0px 12px 0px !important;
+         }
+         .center-content-two-table-info {
+            padding: 17px 16px 15px 12px !important;
+         }
+         .center-content-two-icon img {
+            min-width: 31px !important;
+            width: 31px !important;
+         }
+         .center-content-two-text {
+            font-size: 12px !important;
+            line-height: 16px !important;
+         }
+
+         .center-content-four {
+            padding: 5px 13px 7px 8px !important;
+         }
+         .center-content-four td {
+            font-size: 14px !important;
+            line-height: 20px !important;
+         }
+         .center-content-four-td-icon-right img {
+            min-width: 19px !important;
+         }
+
+         .center-content-five {
+            padding: 12px 16px 12px 16px !important;
+         }
+         .center-content-five h2 {
+            font-size: 16px !important;
+            line-height: 24px !important;
+            padding: 0px 0px 6px 0px !important;
+         }
+         .center-content-five h4 {
+            font-size: 16px !important;
+            line-height: 24px !important;
+            max-width: 100% !important;
+         }
+         .center-content-five p span {
+            padding: 3px 0px 3px 6px !important;
+         }
       }
       @media screen and (max-width: 600px) {}
+      @media screen and (max-width: 480.98px) {
+
+         .w-from-481 {
+            display: none !important;
+         }
+         .w-to-480 {
+            display: table !important;
+         }
+
+         .center-content-five .table-popular-news-column td {
+            display: block;
+            padding: 7px 0px 6px 0px !important;
+         }
+         .center-content-five .table-popular-news-column img {
+            width: 100% !important;
+         }
+      }
       @media screen and (max-width: 400px) {
          /*.mobile-padding {
             padding-left: 10px !important;
@@ -190,7 +337,7 @@
 </head>
 <body style="background-color:#F2F4F4;color:#002024;font-family: 'Roboto', Arial, Helvetica !important;font-weight:400;line-height:100%;Margin:0;width:100%;padding: 0px;">
    
-   <center style="table-layout: fixed;width:100%;">
+   <center style="table-layout: fixed;overflow:hidden;width:100%;">
 
       <!-- Preheader (remove connent) -->
       <div style="font-size: 0;color: #002024;list-style: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-width: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
@@ -198,7 +345,7 @@
       </div>
       <!-- End Preheader (remove connent) -->
 
-      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="w-from-541" style="color:#002024;font-family:'Gilroy',Arial,Helvetica !important;Margin:0;padding-bottom:16px;padding-top:21px;padding-left:12px;padding-right:12px;width:100%;max-width:591px;">
+      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="w-from-541" style="display: table;color:#002024;font-family:'Gilroy',Arial,Helvetica !important;Margin:0;padding-bottom:16px;padding-top:21px;padding-left:12px;padding-right:12px;width:100%;max-width:591px;">
          <tr>
             <td align="left">
                <a href="https://github.com/Hetman-Novel/grokholsky-store/" target="_blank" style="display:inline-block;">
@@ -238,7 +385,7 @@
          </tr>
       </table>
 
-      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="table-head-top w-to-540" style="color:#002024;font-family:'Gilroy',Arial,Helvetica !important;Margin:0;padding-bottom:16px;padding-top:21px;padding-left:16px;padding-right:16px;width:100%;">
+      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="table-head-top w-to-540" style="display: none;color:#002024;font-family:'Gilroy',Arial,Helvetica !important;Margin:0;padding-bottom:16px;padding-top:21px;padding-left:16px;padding-right:16px;width:100%;">
          <tr align="center">
             <td style="width:100%;">
                <a href="https://github.com/Hetman-Novel/grokholsky-store/" target="_blank" style="display:inline-block;">
@@ -247,7 +394,7 @@
             </td>
          </tr>
       </table>
-      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="table-head-bottom w-to-540" style="color:#002024;font-family:'Gilroy',Arial,Helvetica !important;Margin:0;padding-bottom:16px;padding-left:16px;padding-right:16px;width:100%;">
+      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="table-head-bottom w-to-540" style="display: none;color:#002024;font-family:'Gilroy',Arial,Helvetica !important;Margin:0;padding-bottom:16px;padding-left:16px;padding-right:16px;width:100%;">
          <tr>
             <td align="left">
                <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="padding-right:8px;">
@@ -284,7 +431,7 @@
 
    </center>
 
-   <center style="table-layout: fixed;padding: 0px 16px 0px 16px;">
+   <center style="table-layout: fixed;overflow:hidden;padding: 0px 16px 0px 16px;">
 
       <div style="background-color:#ffffff;border-radius:16px;max-width:540px;padding: 24px 30px 24px 30px;" class="center-content-first">
          
@@ -309,7 +456,7 @@
             </tr>
          </table>
 
-         <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="color: #002024;font-family: 'Roboto', Arial, Helvetica !important;width:100%;" class="table-order-details">
+         <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="color: #002024;font-family: 'Roboto', Arial, Helvetica !important;overflow-x: auto;width:100%;" class="table-order-details">
             <tr>
                <td style="padding: 0px 0px 9px 0px;vertical-align: top;" class="column">
                   <h3 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 0 12px 0px 0px;text-align: left;">Замовник</h3>
@@ -344,74 +491,389 @@
 
       </div>
 
-      <table border="0" cellspacing="0" cellpadding="0" style="width:100%;">
+      <table border="0" cellspacing="0" cellpadding="0" style="width:100%;" class="separator">
          <tr>
-            <td style="padding: 12px 0px 0px 0px;"></td>
+            <td style="padding: 6px 0px 6px 0px;"></td>
          </tr>
       </table>
    
-      <div style="background-color:#ffffff;border-radius:16px;max-width:540px;padding: 13px 30px 24px 30px;" class="center-content-two">
+      <div style="background-color:#ffffff;border-radius:16px;max-width:540px;padding: 13px 30px 29px 30px;" class="center-content-two">
 
-         <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="color: #002024;font-family: 'Roboto', Arial, Helvetica !important;width:100%;" class="table-your-order">
+         <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="color: #002024;font-family: 'Roboto', Arial, Helvetica !important;overflow-x: auto;width:100%;" class="table-your-order">
             <tr>
                <td colspan="2">
-                  <h2 style="color: #002024;font-size: 20px;font-weight: 700;line-height: 28px;margin: 0;">Ваше замовлення</h2>
+                  <h2 style="color: #002024;font-size: 20px;font-weight: 700;line-height: 28px;margin: 0;padding: 0px 0px 16px 0px;">Ваше замовлення</h2>
                </td>
             </tr>
             <tr>
-               <td class="vertical-align: top;">
+               <td style="padding: 0px 12px 0px 0px;vertical-align: top;width: 105px;" class="center-content-two-td-1">
                   <div align="center" class="table-your-order-block-image" style="background-color: #F2F4F4;border-radius: 12px 12px 12px 12px;height: 101px;width: 101px;">
                      <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/product-1.png" alt="" width="85" style="padding: 6px 0px 0px 0px;width: 85px;max-width: 100%;" />
                   </div>
                </td>
-               <td class="vertical-align: top;">
-                  <h3 style="margin: 0;">Apple MacBook Pro 16″ Space Black Late 2023 (MRW13)</h3>
-
+               <td style="vertical-align: top;">
+                  <h3 style="color: #002024;font-size: 16px;font-weight: 500;line-height: 24px;margin: 0;padding: 0px 0px 7px 0px;">Apple MacBook Pro 16″ Space Black Late 2023 (MRW13)</h3>
+                  <p style="display: inline-block;margin: 0;padding: 2px 2px 2px 0px;">
+                     <span style="background-color: #F2F4F4;border-radius: 50px 50px 50px 50px;color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 1px 6px 1px 6px;">Колір: <strong>Space Black</strong></span>
+                  </p>
+                  <p style="display: inline-block;margin: 0;padding: 2px 2px 2px 0px;">
+                     <span style="background-color: #F2F4F4;border-radius: 50px 50px 50px 50px;color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 1px 6px 1px 6px;">Обсяг пам'яті: <strong>2TB</strong></span>
+                  </p>
+                  <p style="display: inline-block;margin: 0;padding: 2px 2px 2px 0px;">
+                     <span style="background-color: #F2F4F4;border-radius: 50px 50px 50px 50px;color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 1px 6px 1px 6px;">Процесор: <strong>M3 Pro</strong></span>
+                  </p>
+                  <p style="display: inline-block;margin: 0;padding: 2px 2px 2px 0px;">
+                     <span style="background-color: #F2F4F4;border-radius: 50px 50px 50px 50px;color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 1px 6px 1px 6px;">Оперативна пам'ять: <strong>36GB</strong></span>
+                  </p>
+                  <p style="display: inline-block;margin: 0;padding: 2px 2px 2px 0px;">
+                     <span style="background-color: #F2F4F4;border-radius: 50px 50px 50px 50px;color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 1px 6px 1px 6px;">Відеокарта: <strong>18-Core GPU</strong></span>
+                  </p>
+                  <div class="center-content-two-quantity-and-price">
+                     <p style="color: #002024;display: inline-block;font-size: 14px;font-weight: 400;line-height: 20px;text-align: left;margin: 0;padding: 8px 0px 0px 0px;">Кількість: <strong style="font-weight: 700;">1</strong></p>
+                     <p style="color: #002024;display: inline-block;font-size: 14px;font-weight: 400;line-height: 20px;text-align: left;margin: 0;padding: 8px 0px 0px 14px;">Ціна: <strong style="font-weight: 700;">164 789 грн.</strong></p>
+                  </div>
                </td>
             </tr>
             <tr>
                <td colspan="2">
-                  <div style="padding: 16px 0px 16px 0px;">
+                  <div style="padding: 16px 0px 16px 0px;" class="center-content-two-line">
                      <p style="background-color: #E5E9E9;height: 1px;margin:0;width: 100%;"></p>
                   </div>
                </td>
             </tr>
             <tr>
-               <td class="vertical-align: top;">
+               <td style="vertical-align: top;width: 105px;" class="center-content-two-td-1">
                   <div align="center" class="table-your-order-block-image" style="background-color: #F2F4F4;border-radius: 12px 12px 12px 12px;height: 101px;width: 101px;">
                      <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/product-2.png" alt="" width="85" style="padding: 6px 0px 0px 0px;width: 85px;max-width: 100%;" />
                   </div>
                </td>
-               <td>
-                  <h3 style="margin: 0;">Apple MacBook Pro 16″ Space Black Late 2023 (MRW13)</h3>
-
+               <td style="vertical-align: top;">
+                  <h3 style="color: #002024;font-size: 16px;font-weight: 500;line-height: 24px;margin: 0;padding: 0px 0px 7px 0px;">Apple MacBook Pro 16″ Space Black Late 2023 (MRW13)</h3>
+                  <p style="display: inline-block;margin: 0;padding: 2px 2px 2px 0px;">
+                     <span style="background-color: #F2F4F4;border-radius: 50px 50px 50px 50px;color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 1px 6px 1px 6px;">Колір: <strong>Space Black</strong></span>
+                  </p>
+                  <p style="display: inline-block;margin: 0;padding: 2px 2px 2px 0px;">
+                     <span style="background-color: #F2F4F4;border-radius: 50px 50px 50px 50px;color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 1px 6px 1px 6px;">Обсяг пам'яті: <strong>2TB</strong></span>
+                  </p>
+                  <p style="display: inline-block;margin: 0;padding: 2px 2px 2px 0px;">
+                     <span style="background-color: #F2F4F4;border-radius: 50px 50px 50px 50px;color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 1px 6px 1px 6px;">Процесор: <strong>M3 Pro</strong></span>
+                  </p>
+                  <div class="center-content-two-quantity-and-price">
+                     <p style="color: #002024;display: inline-block;font-size: 14px;font-weight: 400;line-height: 20px;text-align: left;margin: 0;padding: 8px 0px 0px 0px;">Кількість: <strong style="font-weight: 700;">1</strong></p>
+                     <p style="color: #002024;display: inline-block;font-size: 14px;font-weight: 400;line-height: 20px;text-align: left;margin: 0;padding: 8px 0px 0px 14px;">Ціна: <strong style="font-weight: 700;">164 789 грн.</strong></p>
+                  </div>
                </td>
             </tr>
             <tr>
                <td colspan="2">
-                  <div style="padding: 16px 0px 16px 0px;">
+                  <div style="padding: 16px 0px 16px 0px;" class="center-content-two-line">
                      <p style="background-color: #E5E9E9;height: 1px;margin:0;width: 100%;"></p>
                   </div>
                </td>
             </tr>
             <tr>
-               <td class="vertical-align: top;">
+               <td style="vertical-align: top;width: 105px;" class="center-content-two-td-1">
                   <div align="center" class="table-your-order-block-image" style="background-color: #F2F4F4;border-radius: 12px 12px 12px 12px;height: 101px;width: 101px;">
                      <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/product-3.png" alt="" width="85" style="padding: 6px 0px 0px 0px;width: 85px;max-width: 100%;" />
                   </div>
                </td>
-               <td>
-                  <h3 style="margin: 0;">Apple MacBook Pro 16″ Space Black Late 2023 (MRW13)</h3>
-                  
+               <td style="vertical-align: top;">
+                  <h3 style="color: #002024;font-size: 16px;font-weight: 500;line-height: 24px;margin: 0;padding: 0px 0px 7px 0px;">Apple MacBook Pro 16″ Space Black Late 2023 (MRW13)</h3>
+                  <p style="display: inline-block;margin: 0;padding: 2px 2px 2px 0px;">
+                     <span style="background-color: #F2F4F4;border-radius: 50px 50px 50px 50px;color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 1px 6px 1px 6px;">Колір: <strong>Space Black</strong></span>
+                  </p>
+                  <p style="display: inline-block;margin: 0;padding: 2px 2px 2px 0px;">
+                     <span style="background-color: #F2F4F4;border-radius: 50px 50px 50px 50px;color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 1px 6px 1px 6px;">Обсяг пам'яті: <strong>2TB</strong></span>
+                  </p>
+                  <p style="display: inline-block;margin: 0;padding: 2px 2px 2px 0px;">
+                     <span style="background-color: #F2F4F4;border-radius: 50px 50px 50px 50px;color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 1px 6px 1px 6px;">Процесор: <strong>M3 Pro</strong></span>
+                  </p>
+                  <p style="display: inline-block;margin: 0;padding: 2px 2px 2px 0px;">
+                     <span style="background-color: #F2F4F4;border-radius: 50px 50px 50px 50px;color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 1px 6px 1px 6px;">Оперативна пам'ять: <strong>36GB</strong></span>
+                  </p>
+                  <p style="display: inline-block;margin: 0;padding: 2px 2px 2px 0px;">
+                     <span style="background-color: #F2F4F4;border-radius: 50px 50px 50px 50px;color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 1px 6px 1px 6px;">Відеокарта: <strong>18-Core GPU</strong></span>
+                  </p>
+                  <div class="center-content-two-quantity-and-price">
+                     <p style="color: #002024;display: inline-block;font-size: 14px;font-weight: 400;line-height: 20px;text-align: left;margin: 0;padding: 8px 0px 0px 0px;">Кількість: <strong style="font-weight: 700;">1</strong></p>
+                     <p style="color: #002024;display: inline-block;font-size: 14px;font-weight: 400;line-height: 20px;text-align: left;margin: 0;padding: 8px 0px 0px 14px;">Ціна: <strong style="font-weight: 700;">164 789 грн.</strong></p>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2">
+                  <div style="padding: 16px 0px 16px 0px;" class="center-content-two-line">
+                     <p style="background-color: #E5E9E9;height: 1px;margin:0;width: 100%;"></p>
+                  </div>
+               </td>
+            </tr>
+            <tr class="center-content-two-list-info">
+               <td style="color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 0px 0px 6px 0px;">Разом:</td>
+               <td align="right" style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;text-align: right;" class="price-1">164 789 грн.</td>
+            </tr>
+            <tr class="center-content-two-list-info">
+               <td style="color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 0px 0px 6px 0px;">Доставка:</td>
+               <td align="right" style="color: #002024;font-size: 14px;font-weight: 500;line-height: 20px;text-align: right;">На відділення «Нова Пошта»</td>
+            </tr>
+            <tr class="center-content-two-list-info">
+               <td style="color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 0px 0px 6px 0px;">Спосіб оплати:</td>
+               <td align="right" style="color: #002024;font-size: 14px;font-weight: 500;line-height: 20px;text-align: right;">Онлайн платежі</td>
+            </tr>
+            <tr class="center-content-two-list-info">
+               <td style="color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;padding: 0px 0px 6px 0px;">Всього:</td>
+               <td align="right"style="color: #002024;font-size: 20px;font-weight: 700;line-height: 28px;text-align: right;" class="price-2">164 789 <span style="color: #002024;font-size: 16px;font-weight: 700;line-height: 24px;text-align: right;">грн.</span></td>
+            </tr>
+            <tr>
+               <td colspan="2" style="padding: 18px 0px 16px 0px;" class="center-content-two-block-info">
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="border: 1px solid #E5E9E9;border-radius: 16px 16px 16px 16px;color: #002024;font-family: 'Roboto', Arial, Helvetica !important;padding: 17px 14px 17px 14px;width:100%;" class="center-content-two-table-info">
+                     <tr>
+                        <td style="padding: 0px 20px 0px 0px;vertical-align: top;" class="center-content-two-icon">
+                           <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/return-arrow.png" alt="arrow" width="27.38" style="min-width: 27.38px;" />
+                        </td>
+                        <td style="color: #002024;font-size: 14px;font-weight: 400;line-height: 20px;text-align: left;vertical-align: top;" class="center-content-two-text">Ви можете повернути або обміняти товар впродовж 14 днів з моменту його отримання. Для цього необхідно заповнити форму замовлення на сайті вказавши необхідну інформацію.</td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2" style="background-color: #7778FA;border-radius: 12px 12px 12px 12px;">
+                  <a target="_blank" href="https://hetman-novel.github.io/grokholsky-store/" style="background: linear-gradient(85.89deg, #01E0FF 0%, #7778FA 51%, #FF01F5 100%);border-radius: 12px 12px 12px 12px;color: #ffffff;display: block;font-size: 16px;font-weight: 700;line-height: 24px;padding: 12px 12px 12px 12px;text-align: center;" class="center-content-two-button">Шопитись далі</a>
                </td>
             </tr>
          </table>
 
       </div>
 
-   <center style="padding-bottom:31px;padding-top:13px;table-layout:fixed;width:100%;" class="center-bottom">
+      <table border="0" cellspacing="0" cellpadding="0" style="width:100%;" class="separator">
+         <tr>
+            <td style="padding: 12px 0px 0px 0px;"></td>
+         </tr>
+      </table>
 
-      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="w-from-541" style="color:#002024;font-family: 'Roboto', Arial, Helvetica !important;Margin:0;padding:0;padding-left:12px;padding-right:12px;width:100%;max-width:591px;">
+      <div style="background-color:#ffffff;border-radius:16px;max-width:546px;overflow:hidden;padding: 15px 27px 18px 27px;" class="center-content-three">
+         
+         <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="color: #002024;font-family: 'Roboto', Arial, Helvetica !important;width:100%;" class="table-popular-cats-title">
+            <tr>
+               <td>
+                  <h2 style="color: #002024;font-size: 20px;font-weight: 700;line-height: 28px;margin: 0;padding: 0px 5px 6px 5px;">Популярні категорії</h2>
+               </td>
+            </tr>
+         </table>
+         <table border="0" cellspacing="0" cellpadding="0" role="presentation" class="w-from-481" style="display: table;color: #002024;font-family: 'Roboto', Arial, Helvetica !important;width:100%;" class="table-popular-cats">
+            <tr>
+               <td align="center" style="padding: 11px 5px 11px 5px;width: 20%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-1.png" alt="iPhone" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">iPhone</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 11px 5px 11px 5px;width: 20%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-2.png" alt="iPad" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">iPad</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 11px 5px 11px 5px;width: 20%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-3.png" alt="AirPods" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">AirPods</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 11px 5px 11px 5px;width: 20%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-4.png" alt="MacBook" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">MacBook</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 11px 5px 11px 5px;width: 20%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-5.png" alt="Apple Watch" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">Apple Watch</a>
+                  </h4>
+               </td>
+            </tr>
+            <tr>
+               <td align="center" style="padding: 11px 5px 11px 5px;width: 20%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-6.png" alt="Apple Watch" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">Apple Watch</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 11px 5px 11px 5px;width: 20%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-7.png" alt="Зарядні станції" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">Зарядні станції</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 11px 5px 11px 5px;width: 20%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-8.png" alt="Геймпади" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">Геймпади</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 11px 5px 11px 5px;width: 20%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-9.png" alt="Геймпади" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">Геймпади</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 11px 5px 11px 5px;width: 20%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-10.png" alt="Акустичні системи" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">Акустичні системи</a>
+                  </h4>
+               </td>
+            </tr>
+         </table>
+         <table border="0" cellspacing="0" cellpadding="0" role="presentation" class="w-to-480" style="display: none;color: #002024;font-family: 'Roboto', Arial, Helvetica !important;width:100%;" class="table-popular-cats">
+            <tr>
+               <td align="center" style="padding: 4px 5px 4px 5px;width: 25%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-1.png" alt="iPhone" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">iPhone</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 4px 5px 4px 5px;width: 25%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-2.png" alt="iPad" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">iPad</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 4px 5px 4px 5px;width: 25%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-3.png" alt="AirPods" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">AirPods</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 4px 5px 4px 5px;width: 25%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-4.png" alt="MacBook" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">MacBook</a>
+                  </h4>
+               </td>
+            </tr>
+            <tr>
+               <td align="center" style="padding: 4px 5px 4px 5px;width: 25%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-5.png" alt="Apple Watch" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">Apple Watch</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 4px 5px 4px 5px;width: 25%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-6.png" alt="Apple Watch" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">Apple Watch</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 4px 5px 4px 5px;width: 25%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-7.png" alt="Зарядні станції" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">Зарядні станції</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 4px 5px 4px 5px;width: 25%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-8.png" alt="Геймпади" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">Геймпади</a>
+                  </h4>
+               </td>
+            </tr>
+            <tr>
+               <td align="center" style="padding: 4px 5px 4px 5px;width: 25%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-9.png" alt="Геймпади" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">Геймпади</a>
+                  </h4>
+               </td>
+               <td align="center" style="padding: 4px 5px 4px 5px;width: 25%;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/popular-cat-image-10.png" alt="Акустичні системи" width="88" style="width: 88px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;margin: 0;padding: 12px 1px 0px 1px;text-align: center;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/catalog.html" target="_blank">Акустичні системи</a>
+                  </h4>
+               </td>
+            </tr>
+         </table>
+      </div>
+
+      <table border="0" cellspacing="0" cellpadding="0" style="width:100%;" class="separator">
+         <tr>
+            <td style="padding: 12px 0px 0px 0px;"></td>
+         </tr>
+      </table>
+
+      <div style="background-color:#00FFC8;border-radius:16px;max-width:571px;padding: 12px 14px 13px 14px;" class="center-content-four">
+         <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="color: #002024;font-family: 'Roboto', Arial, Helvetica !important;width:100%;" class="table-popular-cats-title">
+            <tr>
+               <td align="left" style="width: 32px;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/exchange-arrow.png" alt="arrow" width="23" style="width: 23px;" />
+               </td>
+               <td style="color: #002024;font-size: 16px;font-weight: 700;line-height: 24px;padding: 0px 7px 0px 0px;text-align: left;">
+                  <a href="https://hetman-novel.github.io/grokholsky-store/exchange-and-trade-in.html" target="_blank">Міняємо любий твій Apple пристрій на гроші</a>
+               </td>
+               <td align="right" class="center-content-four-td-icon-right">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/arrow-right.png" alt="arrow" width="20" style="width: 20px;" />
+               </td>
+            </tr>
+         </table>
+      </div>
+
+      <table border="0" cellspacing="0" cellpadding="0" style="width:100%;" class="separator">
+         <tr>
+            <td style="padding: 12px 0px 0px 0px;"></td>
+         </tr>
+      </table>
+
+      <div style="background-color:#ffffff;border-radius:16px;max-width:552px;padding: 15px 24px 23px 24px;" class="center-content-five">
+         
+         <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="color: #002024;font-family: 'Roboto', Arial, Helvetica !important;width:100%;" class="table-popular-news-title">
+            <tr>
+               <td>
+                  <h2 style="color: #002024;font-size: 20px;font-weight: 700;line-height: 28px;max-width: 385px;margin: 0;padding: 0px 7px 6px 7px;">У нас на сайті багато корисних статей по догляду за гаджетами</h2>
+               </td>
+            </tr>
+         </table>
+         <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="color: #002024;font-family: 'Roboto', Arial, Helvetica !important;width:100%;" class="table-popular-news-column">
+            <tr>
+               <td style="padding: 8px 8px 8px 8px;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/image-1.png" alt="image" width="168" style="border-radius: 16px 16px 16px 16px;width: 168px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;text-align: left;margin: 0;max-width: 156px;padding: 8px 6px 8px 6px;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/single.html" target="_blank">Попит на техніку Apple в 1 кварталі 2024 року зріс на 7,3%</a>
+                  </h4>
+                  <p style="color: #002024;font-size: 12px;font-weight: 400;line-height: 20px;margin: 0;padding: 0px 6px 0px 6px;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/blog.html" style="border: 1px solid #0ED5FF;border-radius: 50px 50px 50px 50px;padding: 2px 5px 2px 6px;" target="_blank">Новини</a>
+                     <span style="color: #66797C;display: inline-block;padding: 3px 0px 3px 7px;white-space: nowrap;">Май 9, 2022</span>
+                  </p>
+               </td>
+               <td style="padding: 8px 8px 8px 8px;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/image-2.png" alt="image" width="168" style="border-radius: 16px 16px 16px 16px;width: 168px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;text-align: left;margin: 0;max-width: 156px;padding: 8px 6px 8px 6px;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/single.html" target="_blank">Попит на техніку Apple в 1 кварталі 2024 року зріс на 7,3%</a>
+                  </h4>
+                  <p style="color: #002024;font-size: 12px;font-weight: 400;line-height: 20px;margin: 0;padding: 0px 6px 0px 6px;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/blog.html" style="border: 1px solid #0ED5FF;border-radius: 50px 50px 50px 50px;padding: 2px 5px 2px 6px;" target="_blank">Новини</a>
+                     <span style="color: #66797C;display: inline-block;padding: 3px 0px 3px 7px;white-space: nowrap;">Май 9, 2022</span>
+                  </p>
+               </td>
+               <td style="padding: 8px 8px 8px 8px;">
+                  <img border="0" src="https://hetman-novel.github.io/grokholsky-mails/images/image-3.png" alt="image" width="168" style="border-radius: 16px 16px 16px 16px;width: 168px;max-width: 100%;" />
+                  <h4 style="color: #002024;font-size: 14px;font-weight: 700;line-height: 20px;text-align: left;margin: 0;max-width: 156px;padding: 8px 6px 8px 6px;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/single.html" target="_blank">Попит на техніку Apple в 1 кварталі 2024 року зріс на 7,3%</a>
+                  </h4>
+                  <p style="color: #002024;font-size: 12px;font-weight: 400;line-height: 20px;margin: 0;padding: 0px 6px 0px 6px;">
+                     <a href="https://hetman-novel.github.io/grokholsky-store/blog.html" style="border: 1px solid #0ED5FF;border-radius: 50px 50px 50px 50px;padding: 2px 5px 2px 6px;" target="_blank">Новини</a>
+                     <span style="color: #66797C;display: inline-block;padding: 3px 0px 3px 7px;white-space: nowrap;">Май 9, 2022</span>
+                  </p>
+               </td>
+            </tr>
+         </table>
+      
+      </div>
+   
+   </center>
+
+   <center style="padding-bottom:31px;padding-top:13px;table-layout:fixed;width:100%;overflow:hidden;" class="center-bottom">
+
+      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="w-from-541" style="display: table;color:#002024;font-family: 'Roboto', Arial, Helvetica !important;Margin:0;padding:0;padding-left:12px;padding-right:12px;width:100%;max-width:591px;">
          <tr>
             <td>
                <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="padding-bottom:16px;">
@@ -458,12 +920,12 @@
          </tr>
       </table>
 
-      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="table-footer-top w-to-540" style="color:#002024;font-family: 'Roboto', Arial, Helvetica !important;Margin:0;padding:0;padding-left:16px;padding-right:16px;width:100%;max-width:624px;">
+      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="table-footer-top w-to-540" style="display: none;color:#002024;font-family: 'Roboto', Arial, Helvetica !important;Margin:0;padding:0;padding-left:16px;padding-right:16px;width:100%;max-width:624px;">
          <tr>
             <td style="font-size:16px;font-weight:700;line-height:24px;">Служба турботы Grokholsky</td>
          </tr>
       </table>
-      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="table-footer-middle w-to-540" style="color:#002024;font-family: 'Roboto', Arial, Helvetica !important;Margin:0;padding:0;padding-left:16px;padding-right:16px;width:100%;max-width:624px;">
+      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="table-footer-middle w-to-540" style="display: none;color:#002024;font-family: 'Roboto', Arial, Helvetica !important;Margin:0;padding:0;padding-left:16px;padding-right:16px;width:100%;max-width:624px;">
          <tr>
             <td align="left" style="font-size:20px;font-weight:700;line-height:28px;">
                <a href="#">(073) 271-49-12</a>
@@ -486,7 +948,7 @@
             </td>
          </tr>
       </table>
-      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="w-to-540" style="color:#002024;font-family: 'Roboto', Arial, Helvetica !important;Margin:0;padding:0;padding-left:16px;padding-right:16px;width:100%;max-width:624px;">
+      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" class="w-to-540" style="display: none;color:#002024;font-family: 'Roboto', Arial, Helvetica !important;Margin:0;padding:0;padding-left:16px;padding-right:16px;width:100%;max-width:624px;">
          <tr>
             <td>
                <table border="0" cellspacing="0" cellpadding="0" role="presentation">
